@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HugoHugo Sample</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on HugoHugo Sample</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 23 Feb 2022 11:44:26 +0900</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>asciidocテスト</title>
+      <link>http://example.org/posts/default/</link>
+      <pubDate>Wed, 23 Feb 2022 11:44:26 +0900</pubDate>
+      
+      <guid>http://example.org/posts/default/</guid>
+      <description>はじめに 本書はAsciiDoc、PlantUML、mermaid などを使ったテキストベース仕様書の例を示すことを目的とする。 AsciiDoc</description>
+    </item>
+    
+    <item>
+      <title>Sample</title>
+      <link>http://example.org/posts/sample/</link>
+      <pubDate>Wed, 23 Feb 2022 11:44:26 +0900</pubDate>
+      
+      <guid>http://example.org/posts/sample/</guid>
+      <description>セクション asciidocテスト @startuml Bob -&amp;gt; Alice : hello @enduml</description>
+    </item>
+    
+  </channel>
+</rss>

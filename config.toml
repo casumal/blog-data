@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+# サイトトップに表示されるタイトル
+title = "HugoHugo Sample"
+
+# 使用するテーマ．themesディレクトリに同名のディレクトリがないとエラーになる
+theme = "beautifulhugo"
+
+# 日本語を含む場合に設定しておくもの?
+defaultContentLanguage = "ja"
+languageCode = "ja"
+
+[security]
+enableInlineShortcodes = false
+
+[security.exec]
+allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
+osEnv = ["(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|RUBYLIB)$"]
+
+[security.funcs]
+getenv = ["^HUGO_"]
+
+[security.http]
+methods = ["(?i)GET|POST"]
+urls = [".*"]
