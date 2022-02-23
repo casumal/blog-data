@@ -28,6 +28,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.0.2
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: deankh/blog
+          external_repository: casumal/blog-data-pages
           publish_branch: master
           publish_dir: ./public
